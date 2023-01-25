@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Product Discount Calculator</h1>
+        <form action="display_discount.php" method="post">
+
+            <div id="data">
+                <label>Product Name:</label>
+                <input type="text" name="product_name"><br>
+
+                <label>List Price:</label>
+                <input type="text" name="list_price"><br>
+
+                <label>Discount Percent:</label>
+                <input type="text" name="discount_percent"><span>%</span><br>
+
+                <label>Description:</label>
+                <input type="text" name="Description"><br>
+
+                <label>Brand:</label>
+                <input type="text" name="Brand"><br>
+
+                <label>Shipping costs</label>
+                <input type="text" name="Shipping costs"><br>
+
+                <label>Quantity</label>
+                <input type="text" name="Quantity"><br>
+
+
+                <label>Radio buttons for fun:</label>
+                <input type="radio" name="radio1" value="thisOne">thisOne
+                <input type="radio" name="radio2" value="ThatOne">ThatOne
+                <input type="radio" name="radio3" value="TheOtherOne">TheOtherOne
+            </div>
+
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"><br>
+            </div>
+            
+            
+
+
+        </form>
+    </main>
+</body>
+</html>
